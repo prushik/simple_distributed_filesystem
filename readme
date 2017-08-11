@@ -1,0 +1,11 @@
+# Simple Distributed Network Filesystem
+A simple distributed filesystem which merges file data servers into a single volume accessable to all clients. No striping or redundancy.
+
+The goal is to maintain an extremely simple and understandable design, and provide storage from an arbitrary number of data server as a single logical volume.
+The goals are neither high performance, nor high available, nor data loss protection/recovery. Instead, this project aims for high utilization of available resources and ease of use.
+
+
+There are three components of this project:
+ - Data Server
+ - Metadata Server
+ - FUSE Module (client)
