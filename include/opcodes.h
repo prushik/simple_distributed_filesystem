@@ -1,0 +1,12 @@
+#define OP_META_ANNOUNCE	0x00
+#define OP_META_QUERY		0x01
+#define OP_META_REGISTER	0x02
+#define OP_META_HEARTBEAT	0x03
+#define OP_META_CLOSE		0x04
+
+#define OP_DATA_OPEN		0x00
+#define OP_DATA_CLOSE		0x01
+#define OP_DATA_READ		0x02
+#define OP_DATA_WRITE		0x03
+#define OP_DATA_STAT		0x04
+#define OP_DATA_UNLINK		0x05
